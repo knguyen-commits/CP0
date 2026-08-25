@@ -1,14 +1,15 @@
 #include <iostream>
 #include <fstream>
 #include <sstream>
+#include <string>
 #include <vector>
 #include <iomanip>
 #include <cctype>
-#include <string>
+
 #include "Movie.h"
+#include "MovieCollection.h"
 
 using namespace std;
-
 string toLower(string text)
 {
     for (char& c : text)
