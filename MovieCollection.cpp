@@ -1,17 +1,11 @@
 #include "MovieCollection.h"
+#include "Utilities.h"
 #include <iostream>
 #include <iomanip>
 #include <string>
 
 using namespace std;
 
-string toLower(string text)
-{
-    for (char& c : text)
-        c = tolower(c);
-
-    return text;
-}
 
 void MovieCollection::addMovie(const Movie& movie)
 {
